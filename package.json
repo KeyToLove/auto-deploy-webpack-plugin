@@ -1,0 +1,33 @@
+{
+  "name": "auto-deploy-webpack-plugin",
+  "version": "0.0.3",
+  "description": "a webpack plugin for deploy",
+  "main": "dist/bundle.js",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "deploy",
+    "auto-deploy-webpack-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeyToLove/auto-deploy-webpack-plugin"
+  },
+  "author": "coderEDC<coderEDC@163.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-ssh": "^12.0.3"
+  },
+  "devDependencies": {
+    "rollup": "^2.70.1"
+  }
+}
